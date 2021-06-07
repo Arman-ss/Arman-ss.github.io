@@ -1,0 +1,244 @@
+body{
+  height:1500px
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #BBB49A;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#BBB49A;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+.color2{
+  background:white;
+ height:100%;
+}
+#resp2{
+         
+         margin-top: 60px;
+         width: 100%
+}
+#resp3{
+      margin-top: 90px;
+      width: 100%
+}
+#resp4{
+      line-height: 36px;
+          margin-top: 115px;
+   
+}
+
+#resp5{
+  width: 1107px;
+  width: 100%
+
+  }
+#resp6{
+    margin-top: 73px;
+    margin-left: 9px;
+    width: 1109px;
+}
+#resp7{
+      line-height: 62px;
+    margin-top: 43px;
+    font-size: 15px;
+}
+#resp8{
+  font-size: 15px;
+  margin-top: 50px;
+}
+#resp9{
+      margin-left: 175px;
+    margin-top: 84px;
+}
+
+#resp11{
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+      margin-top: 20px;
+
+}
+#resp12{
+  text-align: center;
+  font-size:20px;
+  margin-top: 50px;
+}
+#resp13{
+  font-size: 30px;
+  float:right;
+     margin-top: 64px;
+         width: 40px;
+    height: 42px;
+    padding-top: 7px;
+    padding-left: 14px;
+    border-radius: 51px;
+    background:white;
+
+}
+#resp14{
+
+   font-size: 30px;
+ 
+ 
+         width: 40px;
+    height: 42px;
+    
+    padding-left: 8px;
+    border-radius: 51px;
+    background:white;
+ 
+  margin-top: 64px;
+ color:black;
+ padding-top: 7px;
+
+}
+#resp13:hover{
+  
+  
+  color:#3B5998;
+}
+#resp14:hover{
+  color:#C13C76;
+}
+#resp15{
+  
+     width: 900px;
+  height: 500px;
+      margin-top: 45px;
+      margin-left: 90px;
+}
+#resp16{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.DIV{
+background-image: linear-gradient(to right top, #cfb65b,
+ #d0bb67, #d1bf74,
+ #d3c480, #d4c88c,
+ #d2c58b, #cfc289,
+ #cdbf88, #c7b479, #c1a96a,
+ #bb9d5c, #b6924e);
+ 
+ 
+            
+  }
+  .foot{
+text-align: center;
+  flex-wrap: wrap;
+  background-color:#BBB49A;
+ 
+
+  
+}
+
+#resp12{
+  text-align: center;
+}
+
+i{
+  padding:15px;
+  font-size: 40px;
+  
+
+}
+i:hover{
+  color:antiquewhite;
+  padding:15px;
+  font-size: 40px;
+
+}
+#resp11{
+  font-size:40px;
+}
+
+#contact{
+  font-size: 35px;
+}
+
+.fa-instagram{
+color: #da3b58;
+}
+
+.fa-facebook-square{
+  color: #0A82ED
+}
+
+.typ {
+  border-right: solid 3px rgba(0, 0, 0, 0.5);    
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 33px;
+  color:#BBB49A;
+  margin: 0 auto;
+text-align: center;
+}
+
+.typ {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 700ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 398px;}
+}
+
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0, 0, 0, 0.5);}
+  to{border-right-color: transparent;}
+}
